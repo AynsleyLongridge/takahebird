@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    
+}
+
+
+h1 { font-family: 'Trade Winds', cursive;
+    margin-left: 90px;
+    margin-right: 20px;
+    font-size: 6em;
+    padding-top: 50px;
+
+}
+
+h2 {
+    margin: 20px;
+}
+
+
+h5 {
+    margin: 20px;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+
+h6 {
+    margin: 40px;
+    font-size: 0.9em;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+
+
+
+.section {
+    margin-left: 10px;
+}
+
+.container {
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+   
+}
+
+.container two {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.container four {
+    background-color: solid darkslategrey;
+}
+
+.man {
+    z-index: 1;
+    position: absolute;
+    height:100%;
+    width:80%;
+    top: 320px;
+    margin-left: 35px;
+    
+    
+}
+
+.backcolor {
+    z-index: -1;
+    position: static;
+    background-color: burlywood;
+    height: 750px;
+
+}
+
+h3{
+    position: static;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 700px;
+    margin-bottom: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+h4{
+    position: absolute;
+    font-size:0.85em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-top: -500px;
+    margin-bottom: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+p {
+    position: relative;
+    z-index: 1;
+}
+
+
+.one {
+    margin-top: 100px;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 30px;
+}
+
+
+/*-----------TABLE---------------------*/
+
+/*
+
+RESPONSTABLE 2.0 by jordyvanraaij
+  Designed mobile first!
+
+If you like this solution, you might also want to check out the 1.0 version:
+  https://gist.github.com/jordyvanraaij/9069194
+
+*/
+.responstable {
+  margin: 1em 0;
+  width: 100%;
+  overflow: hidden;
+  background: #FFF;
+  color: saddlebrown;
+  border-radius: 10px;
+  border: 1px solid burlywood;
+}
+.responstable tr {
+  border: 1px solid ;
+}
+.responstable tr:nth-child(odd) {
+  background-color: ;
+}
+.responstable th {
+  display: none;
+  border: 1px solid #FFF;
+  background-color:burlywood;
+  color: #FFF;
+  padding: 1em;
+}
+.responstable th:first-child {
+  display: table-cell;
+  text-align: center;
+}
+.responstable th:nth-child(2) {
+  display: table-cell;
+}
+.responstable th:nth-child(2) span {
+  display: none;
+}
+.responstable th:nth-child(2):after {
+  content: attr(data-th);
+}
+@media (min-width: 480px) {
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2):after {
+    display: none;
+  }
+}
+.responstable td {
+  display: block;
+  word-wrap: break-word;
+  max-width: 7em;
+}
+.responstable td:first-child {
+  display: table-cell;
+  text-align: center;
+  border-right: 1px solid;
+}
+@media (min-width: 480px) {
+  .responstable td {
+    border: 1px solid;
+  }
+}
+.responstable th, .responstable td {
+  text-align: left;
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .responstable th, .responstable td {
+    display: table-cell;
+    padding: 1em;
+  }
+}
+
+
+/*---------------S N O W--------------*/
+
+.container four { background-color:#333; }
+#snow{
+	background: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: relative;
+    z-index: -1;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+
+
+/*----------------QUOTE--------*/
+
+blockquote {
+    margin:60px;
+}
+
+
+/*-----------map-----------------*/
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.7em;
+  background: #555;
+  color: #fff;
+  text-decoration: none;
+}
+
+.map {
+  position: relative;
+  height: 20em;
+  text-align: right;
+}
+
+.map-canvas {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ccc;
+}
+
+.map-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  opacity: 0.7;
+  border-bottom-left-radius: 0.5em;
+}
+
+.map-disable {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 2px solid #111;
+  opacity: 0.3;
+}
+
+.map-disable.hide {
+  z-index: -1;
+}
