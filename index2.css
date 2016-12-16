@@ -1,0 +1,328 @@
+/*----RESET-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    
+}
+
+/*-----------Main------------*/
+
+h1 { font-family: 'Trade Winds', cursive;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 6em;
+
+
+}
+
+h2 {
+    margin: 40px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-family: 'Trade Winds', cursive;
+    color: #3E153D;
+    font-size: 3.5em;
+
+}
+
+h4{
+    position: static;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    padding-top: 30px;
+    
+}
+
+h3{
+    position: static;
+    font-size:0.85em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+p {
+    position: relative;
+    z-index: 1;
+    font-size: 1.0em;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    letter-spacing: 0.16em;
+} 
+
+h5 {
+    margin: 20px;
+    font-size: 3.5em;
+    font-family: 'Trade Winds', cursive;
+    color: whitesmoke;
+}
+
+h6 {
+    margin: 80px;
+    font-size: 1.1em;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+
+section {
+    background-color: aliceblue;
+    width:100%;
+    padding-top: 120px;
+    height: 600px;
+   
+}
+
+footer {
+    padding:50px;
+}
+/*-----------header------------*/
+
+.backcolor {
+    z-index: -1;
+    position: static;
+    background-color: burlywood;
+    height: 750px;
+
+}
+
+
+
+.h1first {font-family: 'Trade Winds', cursive;
+    font-size: 3em;
+    padding-top: 40px;
+    margin-bottom: -10px;
+    
+}
+
+.h1firstt {font-family: 'Trade Winds', cursive;
+    font-size: 3em;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+
+.man {
+    z-index: 1;
+    position: absolute;
+    height:80%;
+    width:60%;
+    top: 390px;
+    right: 260px;
+    }
+
+.trees {
+    position:absolute;
+    z-index: 1;
+    max-width: 100%;
+    margin-top: -697px;
+   
+}
+
+/*--------------------------*/
+
+.container {
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+   
+}
+
+.birds {
+    position: absolute;
+    z-index: -1;
+    width: 87%;
+    height: 87%;
+    margin-top: -165px;
+    right:250px;
+}
+
+.h3intro {
+    font-size: 2em;
+    padding-left: 180px;
+    padding-top: 20px;
+    right:40px;
+    margin-bottom: 400px;
+    text-align: justify;
+    
+    
+
+}
+
+.break {
+    position: absolute;
+    width:100%;
+    margin-top: -700px;
+}
+
+.facts {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    z-index: 22;
+    padding-left: 60px;
+}
+
+
+/*----------parallax-----------*/
+
+.parallax { 
+    left:-2px;
+    background: url(pictures/parralax.jpeg) repeat fixed 10%;
+    width: 1300px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.parallax-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*----------------QUOTE--------*/
+
+blockquote {
+    margin:60px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.2em;
+    text-decoration-style: 
+}
+
+.speech { margin-left: 100px;
+
+}
+
+/*------table------*/
+
+table {
+    font-family: "Open Sans" sans-serif;
+    align-content: center;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 2em;
+    text-align: center;
+    
+}
+
+th, td {
+    padding: 10px;
+}
+
+
+th {
+    background-color:#3E153D;
+    color: white;;
+}
+
+
+tr:hover
+    {background: burlywood;
+    color: white;}
+
+.responstable th:first-child {
+  display: table-cell;
+  text-align: center;
+}
+.responstable th:nth-child(2) {
+  display: table-cell;
+}
+.responstable th:nth-child(2) span {
+  display: none;
+}
+.responstable th:nth-child(2):after {
+  content: attr(data-th);
+}
+@media (min-width: 480px) {
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2):after {
+    display: none;
+  }
+}
+.responstable td {
+  display: block;
+  word-wrap: break-word;
+  max-width: 7em;
+}
+.responstable td:first-child {
+  display: table-cell;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .responstable td {
+  
+  }
+}
+.responstable th, .responstable td {
+  text-align: left;
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .responstable th, .responstable td {
+    display: table-cell;
+    padding: 1em;
+  }
+}
+
+
+/*---------------S N O W--------------*/
+
+.container four { background-color:#333; }
+#snow{
+	background: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: relative;
+    z-index: -1;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+
+
+
