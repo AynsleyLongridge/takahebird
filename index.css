@@ -9,15 +9,34 @@
 
 
 h1 { font-family: 'Trade Winds', cursive;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-right: 20px;
     font-size: 6em;
-    padding-top: 50px;
+
 
 }
 
+.h1first {font-family: 'Trade Winds', cursive;
+    font-size: 3em;
+    padding-top: 40px;
+    margin-bottom: -10px;
+    
+}
+
+.h1firstt {font-family: 'Trade Winds', cursive;
+    font-size: 3em;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+
+
 h2 {
-    margin: 20px;
+    margin: 40px;
+    margin-top: 100px;
+    color: #3E153D;
+    font-size: 2.5em;
+
 }
 
 
@@ -39,9 +58,7 @@ h6 {
 
 
 
-.section {
-    margin-left: 10px;
-}
+
 
 .container {
     position:relative;
@@ -60,6 +77,15 @@ h6 {
     
 }
 
+
+.container new {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
 .container four {
     background-color: solid darkslategrey;
 }
@@ -67,18 +93,27 @@ h6 {
 .man {
     z-index: 1;
     position: absolute;
-    height:100%;
-    width:80%;
-    top: 320px;
-    margin-left: 35px;
+    height:80%;
+    width:60%;
+    top: 390px;
+    right: 260px;
+    }
+
     
     
-}
+
 
 .backcolor {
     z-index: -1;
     position: static;
     background-color: burlywood;
+    height: 750px;
+
+}
+
+.backcolornz {
+    z-index: -1;
+    position: static;
     height: 750px;
 
 }
@@ -111,6 +146,10 @@ h4{
 p {
     position: relative;
     z-index: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    letter-spacing: 0.11em;
 }
 
 
@@ -123,6 +162,21 @@ footer {
     padding: 30px;
 }
 
+.trees {
+    position:absolute;
+    z-index: 1;
+    max-width: 100%;
+    margin-top: -697px;
+   
+}
+
+.break {
+    width:100%;
+    left:30px;
+    position: absolute;
+    margin-top: -490px;
+    
+}
 
 /*-----------TABLE---------------------*/
 
@@ -252,55 +306,23 @@ If you like this solution, you might also want to check out the 1.0 version:
 
 blockquote {
     margin:60px;
+    color: white;
+    
 }
 
 
-/*-----------map-----------------*/
-.btn {
-  display: inline-block;
-  padding: 0.5em 0.7em;
-  background: #555;
-  color: #fff;
-  text-decoration: none;
+/*---------------parallaz---------------*/
+
+.parallax { 
+    left:-2px;
+    background: url(pictures/parralax.jpeg) repeat fixed 10%;
+    width: 1300px;
+    margin-bottom: 40px;
+    
+    
 }
 
-.map {
-  position: relative;
-  height: 20em;
-  text-align: right;
-}
-
-.map-canvas {
-  box-sizing: border-box;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  border: 2px solid #ccc;
-}
-
-.map-toggle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 3;
-  opacity: 0.7;
-  border-bottom-left-radius: 0.5em;
-}
-
-.map-disable {
-  box-sizing: border-box;
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: white;
-  border: 2px solid #111;
-  opacity: 0.3;
-}
-
-.map-disable.hide {
-  z-index: -1;
+.parallax-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
