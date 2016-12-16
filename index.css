@@ -77,7 +77,7 @@ h6 {
 }
 
 section {
-    background-color: aliceblue;
+    background-color: #A9875A;
     width:100%;
     padding-top: 120px;
     height: 600px;
@@ -86,6 +86,10 @@ section {
 
 footer {
     padding:50px;
+}
+
+body {
+    background-color: #F0E9DF;
 }
 /*-----------header------------*/
 
