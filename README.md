@@ -1,3 +1,3 @@
 # takahebird
 
-[Website](https://AynsleyLongridge.github.io/takahe/index.html)
+[Website](https://AynsleyLongridge.github.io/takahebird/index.html)
