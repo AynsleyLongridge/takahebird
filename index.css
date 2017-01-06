@@ -6,15 +6,17 @@
     border: 0;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.1em;
+    align-items: 
     
 }
 
+img { z-index: 6;}
 /*-----------Main------------*/
 
 h1 { font-family: 'Trade Winds', cursive;
     margin-left: 50px;
     margin-right: 20px;
-    font-size: 6em;
+    font-size: 4em;
 
 
 }
@@ -43,7 +45,7 @@ h3{
     position: static;
     font-size:0.85em;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 40px;
+    margin-top: 240px;
     margin-left: 200px;
     margin-right: 200px;
     
@@ -89,14 +91,18 @@ footer {
 }
 
 body {
-    background-color: #F0E9DF;
+    background-color:#E4C8B0;
 }
 /*-----------header------------*/
 
+.containerstart {
+    position: absolute;
+    z-index: 1000;
+}
 .backcolor {
-    z-index: -1;
-    position: static;
-    background-color: burlywood;
+    z-index: -2;
+    
+    background-color: #E4C8B0;
     height: 750px;
 
 }
@@ -105,7 +111,7 @@ body {
 
 .h1first {font-family: 'Trade Winds', cursive;
     font-size: 3em;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-bottom: -10px;
     
 }
@@ -126,19 +132,54 @@ body {
     right: 260px;
     }
 
+.shadow {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+
+
+
 .trees {
     position:absolute;
-    z-index: 1;
+    z-index: -1;
     max-width: 100%;
-    margin-top: -697px;
+    margin-top: -760px;
+    margin-bottom: 100px;
    
 }
+
+/*----------------feet----------------*/
+
+.foot1 {
+    z-index: 1;
+    position: absolute;
+    height:80%;
+    width:60%;
+    top: 390px;
+    right: 260px;
+}
+
+
+.foot2 {
+    z-index: 1;
+    position: absolute;
+    height:80%;
+    width:60%;
+    top: 390px;
+    right: 260px;
+}
+
+
 
 /*--------------------------*/
 
 .container {
     position:relative;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     margin-left: 120px;
     margin-right: 120px;
@@ -147,7 +188,7 @@ body {
 
 .birds {
     position: absolute;
-    z-index: -1;
+    float: right;
     width: 87%;
     height: 87%;
     margin-top: -165px;
@@ -169,7 +210,7 @@ body {
 .break {
     position: absolute;
     width:100%;
-    margin-top: -700px;
+    margin-top: -910px;
 }
 
 .facts {
@@ -179,6 +220,23 @@ body {
     padding-left: 60px;
 }
 
+
+/*---------------------------NAV---------------------*/
+
+nav {
+    padding-top: 2em;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 2em;
+    }
+
+nav ul {
+    text-align: center;
+    text-transform: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;}
 
 /*----------parallax-----------*/
 
@@ -195,6 +253,51 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+
+/*-----------------------return to top float----------------*/
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
 
 /*----------------QUOTE--------*/
 
@@ -286,6 +389,12 @@ tr:hover
 }
 
 
+.facts {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+
 /*---------------S N O W--------------*/
 
 .container four { background-color:#333; }
@@ -328,5 +437,119 @@ tr:hover
 }	
 
 
+/*--------------------MEDIA QUERIES--------------------*/
+        
+/*---------- TABLET ----------------*/
+@media (max-width: 50em) {
+    
+   
+    
+article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+    img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+    }
+    
+    .man {
+    z-index: 1;
+    position: absolute;
+    height:100%;
+    width:100%;
+    top: 390px;
+    right: 260px;
+    }
 
+.shadow {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+} 
 
+/*----------- SMARTPHONE ----------- */
+ @media (max-width: 30em) {
+    
+   body {
+    margin: auto 0;
+    max-width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 90%;
+    } 
+
+h1 {font-size: 2.9em;}   
+
+blockquote p{padding: 0;
+line-height: 1.5em}  
+     
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
+
+        
+.man {
+    height: 60%;
+    width: 40%
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9em;
+}
+
+section {
+    height: auto;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.h3intro  {
+    font-size: 1.2em;
+    padding: auto;
+    right: 0;
+    margin-top: 360px;
+    margin-right: 50px;
+    margin-left: 0;
+}
+.parallax {
+    width: auto;
+}
+
+.man {
+    z-index: 1;
+    position: absolute;
+    height:50%;
+    width:70%;
+    top: 470px;
+    left: 18%;
+    
+    }
+
+.shadow {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+
+}

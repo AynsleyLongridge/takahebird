@@ -1,37 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="785px" viewBox="0 0 1440 785" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Desktop HD Copy 3</title>
+    <title>Desktop HD Copy 6</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy-3">
-            <polygon id="Triangle" fill="#D5AD77" points="530.5 726 551 798 510 798"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" points="588.5 726 609 798 568 798"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" points="629.5 737 650 809 609 809"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" points="446.5 713 467 785 426 785"></polygon>
-            <polygon id="Triangle" fill="#A9875A" points="571.5 762 592 834 551 834"></polygon>
-            <polygon id="Triangle" fill="#775B35" points="542.5 713 563 785 522 785"></polygon>
-            <polygon id="Triangle" fill="#775B35" points="405.5 713 426 785 385 785"></polygon>
-            <polygon id="Triangle" fill="#775B35" points="509.5 737 530 809 489 809"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" points="480.5 713 501 785 460 785"></polygon>
-            <polygon id="Triangle" fill="#775B35" transform="translate(865.500000, 762.000000) scale(-1, 1) translate(-865.500000, -762.000000) " points="865.5 726 886 798 845 798"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" transform="translate(923.500000, 762.000000) scale(-1, 1) translate(-923.500000, -762.000000) " points="923.5 726 944 798 903 798"></polygon>
-            <polygon id="Triangle" fill="#A9875A" transform="translate(964.500000, 773.000000) scale(-1, 1) translate(-964.500000, -773.000000) " points="964.5 737 985 809 944 809"></polygon>
-            <polygon id="Triangle" fill="#A9875A" transform="translate(906.500000, 798.000000) scale(-1, 1) translate(-906.500000, -798.000000) " points="906.5 762 927 834 886 834"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" transform="translate(877.500000, 749.000000) scale(-1, 1) translate(-877.500000, -749.000000) " points="877.5 713 898 785 857 785"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" transform="translate(844.500000, 773.000000) scale(-1, 1) translate(-844.500000, -773.000000) " points="844.5 737 865 809 824 809"></polygon>
-            <polygon id="Path-19" fill="#775B34" transform="translate(347.000000, 785.000000) scale(-1, 1) translate(-347.000000, -785.000000) " points="172 991 522 791 425 579 408 652 400 610 385 707 369 639 251 791 281 839 270 799 251 898 237 847 219 948 208 893 197 979 185 939"></polygon>
-            <polygon id="Path-19" fill="#775B34" points="899 991 1249 791 1152 579 1135 652 1127 610 1112 707 1096 639 978 791 1008 839 997 799 978 898 964 847 946 948 935 893 924 979 912 939"></polygon>
-            <polygon id="Triangle" fill="#D5AD77" transform="translate(1032.500000, 749.000000) scale(-1, 1) translate(-1032.500000, -749.000000) " points="1032.5 713 1053 785 1012 785"></polygon>
-            <polygon id="Path-19" fill="#A9875A" points="1189 782 1441 783 1442 370 1425 443 1417 401 1402 498 1386 430 1369 538 1355 481 1335 582 1324 519 1298 630 1287 590 1268 689 1254 638 1236 739 1225 684 1214 770 1202 730"></polygon>
-            <polygon id="Path-20" fill="#D5AD77" points="1298 783 1441 785 1395 524 1358 714 1333 604"></polygon>
-            <polygon id="Path-19" fill="#A9875A" points="1189 786 1441 787 1442 374 1425 447 1417 405 1402 502 1386 434 1369 542 1355 485 1335 586 1324 523 1298 634 1287 594 1268 693 1254 642 1236 743 1225 688 1214 774 1202 734"></polygon>
-            <polygon id="Path-19" fill="#A9875A" transform="translate(107.500000, 580.500000) scale(-1, 1) translate(-107.500000, -580.500000) " points="-19 786 233 787 234 374 217 447 209 405 194 502 178 434 161 542 147 485 127 586 116 523 90 634 79 594 60 693 46 642 28 743 17 688 6 774 -6 734"></polygon>
-            <polygon id="Path-20" fill="#D5AD77" points="1298 786 1441 788 1395 527 1358 717 1333 607"></polygon>
-            <polygon id="Path-20" fill="#D5AD77" transform="translate(65.500000, 656.500000) scale(-1, 1) translate(-65.500000, -656.500000) " points="-6 785 137 787 91 526 54 716 29 606"></polygon>
-            <polygon id="Triangle" fill="#A9875A" points="468.5 726 489 798 448 798"></polygon>
-            <polygon id="Triangle" fill="#775B35" points="984.5 713 1005 785 964 785"></polygon>
+        <g id="Desktop-HD-Copy-6">
+            <polygon id="Path-32" fill="#FFCDB4" points="911 1023 1024 799 1038 1023"></polygon>
+            <polygon id="Path-33" fill="#B68F7C" points="1024 799 1054 1024 1038 1023"></polygon>
+            <polygon id="Path-37" fill="#B84C29" points="1002 1023 1147 640 1235 1023"></polygon>
+            <path d="M882.5,788 L924,949 L932,959 L944,936 C947.464611,942.929222 957,954 957,954 L988,1024 L777,1024 L882.5,788 Z" id="Triangle" fill="#CB4C4A"></path>
+            <polygon id="Path-29" fill="#CF1B47" points="821 1023 839 1023 834 999 811.511668 969.952571 810 968 777 1022 810 971"></polygon>
+            <polygon id="Path-30" fill="#C91D47" points="884 790 913 966 924 949 927 968 933 959 926 950"></polygon>
+            <polygon id="Path-37" fill="#B84C29" points="1236 1064 1381 681 1469 1064"></polygon>
+            <polygon id="Path-31" fill="#CE1F47" points="946 953 950 944 944 937"></polygon>
+            <polygon id="Path-32" fill="#FFCDB4" points="1166 1024 1314.5 601 1378 1024"></polygon>
+            <path d="M510,815 L413,1023 L425,1024 L510,815 Z M61,790 L90,966 L101,949 L104,968 L110,959 L103,950 L61,790 Z" id="Combined-Shape" fill="#672814"></path>
+            <polygon id="Path-34" fill="#F6AF42" points="848 1024 898 923 913 1024 918 1024 1008 872 1035 975 1038 1023"></polygon>
+            <polygon id="Path-34" fill="#F6AF42" transform="translate(685.000000, 956.000000) scale(-1, 1) translate(-685.000000, -956.000000) " points="590 1032 640 931 655 1032 660 1032 750 880 777 983 780 1031"></polygon>
+            <polygon id="Path-35" fill="#A57429" points="898 924 907 1024 913 1024"></polygon>
+            <polygon id="Path-35" fill="#A57429" points="731 931 712 1031 731 1031"></polygon>
+            <polygon id="Path-36" fill="#A57429" points="1008 873 1037 1024 1049 1024"></polygon>
+            <polygon id="Path-36" fill="#A57429" points="620 878 577 1025 603 1025"></polygon>
+            <polygon id="Path-38" fill="#6B2D19" points="1148 641 1236 1025 1208 1022"></polygon>
+            <polygon id="Path-38" fill="#6B2E1A" points="1381 680 1469 1064 1441 1061"></polygon>
+            <polygon id="Path-37" fill="#B84C29" points="1126 1262 1271 879 1359 1262"></polygon>
+            <polygon id="Path-38" fill="#6D2E1A" points="1271 878 1359 1262 1331 1259"></polygon>
+            <polygon id="Path-39" fill="#CB4C4A" points="1145 1024 1206 837 1278 1024"></polygon>
+            <polygon id="Path-40" fill="#C91D47" points="1207 838 1277 1023 1258 1024"></polygon>
+            <polygon id="Path-32" fill="#FFCDB4" points="88 1023 201 799 215 1023"></polygon>
+            <polygon id="Path-33" fill="#B68F7C" points="201 799 231 1024 215 1023"></polygon>
+            <polygon id="Path-37" fill="#B84C29" points="179 1023 273 646 412 1023"></polygon>
+            <path d="M59.5,788 L101,949 L109,959 L121,936 C124.464611,942.929222 134,954 134,954 L165,1024 L-46,1024 L59.5,788 Z" id="Triangle" fill="#F23661"></path>
+            <polygon id="Path-29" fill="#CF1B47" points="-2 1024 16 1024 11 1000 -11.4883324 970.952571 -13 969 -46 1023 -13 972"></polygon>
+            <polygon id="Path-37" fill="#B84C29" points="1 1071 146 688 234 1071"></polygon>
+            <polygon id="Path-32" fill="#FFCDB4" points="-81 1071 67.5 648 131 1071"></polygon>
+            <polygon id="Path-33" fill="#B18F7E" points="67 648 130 1071 84 841"></polygon>
+            <polygon id="Path-38" fill="#722D16" points="146 686 234 1070 206 1067"></polygon>
+            <polygon id="Path-34" fill="#FEA694" points="25 1024 75 923 90 1024 95 1024 185 872 212 975 215 1023"></polygon>
+            <polygon id="Path-39" fill="#CB4C4A" points="447 1478 592 912 685 1478"></polygon>
+            <polygon id="Path-37" fill="#B84C29" points="399 1054 510 814 587 1054"></polygon>
+            <polygon id="Path-35" fill="#B36352" points="75 924 84 1024 90 1024"></polygon>
+            <polygon id="Path-36" fill="#B36252" points="185 873 214 1024 226 1024"></polygon>
+            <polygon id="Path-38" fill="#672813" points="273 646 413 1025 385 1022"></polygon>
+            <polygon id="Path-38" fill="#672813" points="508 822 413 1025 385 1022"></polygon>
+            <polygon id="Path-37" fill="#F6AF42" points="303 1262 448 879 536 1262"></polygon>
+            <polygon id="Path-37" fill="#F6AF42" points="-150 1263 -5 880 83 1263"></polygon>
+            <polygon id="Path-38" fill="#A57429" points="448 878 536 1262 508 1259"></polygon>
+            <polygon id="Path-32" fill="#FFCDB4" points="409 1109 484 922 536 1109"></polygon>
+            <polygon id="Path-39" fill="#CB4C4A" points="322 1024 383 837 455 1024"></polygon>
+            <polygon id="Path-33" fill="#B18F7E" points="1314 601 1377 1024 1331 794"></polygon>
+            <polygon id="Path-40" fill="#C91D47" points="384 838 454 1023 435 1024"></polygon>
+            <polygon id="Path-40" fill="#C91D47" points="592 913 615 1036 602 1032"></polygon>
+            <polygon id="Path-47" fill="#B68F7C" points="485 924 452 1017 450 1009"></polygon>
         </g>
     </g>
 </svg>
