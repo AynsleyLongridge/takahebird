@@ -15,6 +15,7 @@ h1 { font-family: 'Trade Winds', cursive;
     margin-left: 50px;
     margin-right: 20px;
     font-size: 4em;
+    color: #301E4F;
 
 
 }
@@ -24,7 +25,7 @@ h2 {
     margin-top: 200px;
     margin-bottom: 100px;
     font-family: 'Trade Winds', cursive;
-    color: #3E153D;
+    color:  #301E4F;
     font-size: 3.5em;
 
 }
@@ -33,9 +34,10 @@ h4{
     position: static;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
-    margin-top: 400px;
-    margin-bottom: 400px;
+    margin-top: 50px;
+    padding-bottom: 110px;
     padding-top: 30px;
+    color: #301E4F;
     
 }
 
@@ -43,9 +45,10 @@ h3{
     position: static;
     font-size:0.85em;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 240px;
+    margin-top: 160px;
     margin-left: 200px;
     margin-right: 200px;
+    color: #301E4F;
     
 }
 
@@ -76,8 +79,12 @@ h6 {
     color: whitesmoke;
 }
 
+h7 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 2em;
+}
 section {
-    background-color: #A9875A;
+   
     width:100%;
     padding-top: 120px;
     height: 600px;
@@ -88,8 +95,11 @@ footer {
     padding:50px;
 }
 
+TRAIAL {#E4C8B0}
+
 body {
-    background-color:#E4C8B0;
+    background-color:whitesmoke;
+    max-width: 100%;
 }
 /*-----------header------------*/
 
@@ -119,12 +129,14 @@ body {
 }
 
 .man {
-    z-index: 3;
+    z-index: 1;
     position: absolute;
-    height:80%;
-    width:60%;
-    top: 390px;
-    right: 260px;
+    height:50%;
+    width:40%;
+    margin-top: 80px;
+    left: 60px;
+
+    
     }
 
 .shadow {
@@ -153,7 +165,7 @@ body {
     z-index: 1;
     position: absolute;
     height: 15%;
-    left: 20%;
+    left: 19%;
 
 }
 
@@ -163,7 +175,7 @@ body {
     position: absolute;
     height: 13%;
     left: 18%;
-    top: 28%;
+    top: 33%;
 }
 
 .foot3 {
@@ -171,14 +183,14 @@ body {
     position: absolute;
     height: 10%;
     left: 20%;
-    top:45%;
+    top:48%;
 }
 
 .foot4 {
     z-index: 1;
     position: absolute;
     height: 10%;
-    left: 74%;
+    left: 75%;
    
 }
 
@@ -186,8 +198,8 @@ body {
     z-index: 1;
     position: absolute;
     height: 13%;
-    top: 27%;
-    left: 79%;
+    top: 29%;
+    left: 80%;
 }
 
 .foot6 {
@@ -195,9 +207,20 @@ body {
     position: absolute;
     height: 15%;
     top:43%;
-    left: 75%;
+    left: 76%;
 }
 
+.walk {
+    height: 20%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+/*-------------------------------sectionone-----------*/
+
+.section1 {
+    background-color: whitesmoke;
+}
 
 
 /*--------------------------*/
@@ -212,19 +235,25 @@ body {
 }
 
 .birds {
-    position: absolute;
+
+    z-index: 1;
     float: right;
-    width: 87%;
-    height: 87%;
-    margin-top: -165px;
     right:250px;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding-bottom: 40px;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 .h3intro {
-    font-size: 2em;
-    padding-left: 180px;
+    font-size: 1.6em;
+    padding-left: 310px;
     padding-top: 20px;
-    right:40px;
     margin-bottom: 400px;
     text-align: justify;
     
@@ -245,6 +274,12 @@ body {
     padding-left: 60px;
 }
 
+.splash {
+    background-image: url(pictures/unsplash.jpg);
+    max-height: 100%;
+    max-width: 100%;
+    
+}
 
 /*---------------------------NAV---------------------*/
 
@@ -252,22 +287,38 @@ nav {
     padding-top: 2em;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 2em;
+    margin-bottom: 40px;
+
+    color: #F23661;
+    text-decoration: none;
     }
 
 nav ul {
     text-align: center;
     text-transform: none;
+    text-decoration: none;
 }
 
 nav ul li {
     display: inline;
-    margin: 20px;}
+    margin: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #F23661;
+}
+
+a {
+    color: #301E4F;
+    text-decoration: none;
+}
 
 /*----------parallax-----------*/
 
 .parallax { 
     left:-2px;
-    background: url(pictures/parralax.jpeg) repeat fixed 10%;
+    background: url(pictures/parralax.jpg) repeat fixed 10%;
     width: 1300px;
     margin-bottom: 40px;
     
