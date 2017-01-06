@@ -6,8 +6,7 @@
     border: 0;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.1em;
-    align-items: 
-    
+    max-width: 100%;
 }
 
 /*-----------Main------------*/
@@ -120,7 +119,7 @@ body {
 }
 
 .man {
-    z-index: 1;
+    z-index: 3;
     position: absolute;
     height:80%;
     width:60%;
@@ -153,38 +152,50 @@ body {
 .foot1 {
     z-index: 1;
     position: absolute;
-   
+    height: 15%;
+    left: 20%;
+
 }
 
 
 .foot2 {
     z-index: 1;
     position: absolute;
- 
+    height: 13%;
+    left: 18%;
+    top: 28%;
 }
 
 .foot3 {
     z-index: 1;
     position: absolute;
- 
+    height: 10%;
+    left: 20%;
+    top:45%;
 }
 
 .foot4 {
     z-index: 1;
     position: absolute;
- 
+    height: 10%;
+    left: 74%;
+   
 }
 
 .foot5 {
     z-index: 1;
     position: absolute;
- 
+    height: 13%;
+    top: 27%;
+    left: 79%;
 }
 
 .foot6 {
     z-index: 1;
     position: absolute;
- 
+    height: 15%;
+    top:43%;
+    left: 75%;
 }
 
 
