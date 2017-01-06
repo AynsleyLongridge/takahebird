@@ -10,7 +10,6 @@
     
 }
 
-img { z-index: 6;}
 /*-----------Main------------*/
 
 h1 { font-family: 'Trade Winds', cursive;
@@ -95,10 +94,7 @@ body {
 }
 /*-----------header------------*/
 
-.containerstart {
-    position: absolute;
-    z-index: 1000;
-}
+
 .backcolor {
     z-index: -2;
     
