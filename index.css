@@ -83,6 +83,12 @@ h7 {
     font-family: 'Trade Winds', cursive;
     font-size: 2em;
 }
+
+h9 {
+    margin-bottom: 200px;
+    font-size: 1.3em;
+   
+}
 section {
    
     width:100%;
@@ -156,9 +162,19 @@ body {
     max-width: 100%;
     margin-top: -760px;
     margin-bottom: 100px;
+    padding-top: 100px;
    
 }
 
+.NZ {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.moa{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
 /*----------------feet----------------*/
 
 .foot1 {
@@ -228,7 +244,7 @@ body {
 .container {
     position:relative;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 280px;
     margin-left: 120px;
     margin-right: 120px;
    
@@ -263,13 +279,14 @@ body {
 
 .break {
     position: absolute;
+    z-index: -1;
     width:100%;
     margin-top: -910px;
 }
 
 .facts {
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: -100px;
     z-index: 22;
     padding-left: 60px;
 }
@@ -280,6 +297,70 @@ body {
     max-width: 100%;
     
 }
+
+.leftwalk {
+    position: absolute;
+    z-index: -1;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+.rightwalk {
+    position: absolute;
+    z-index: -1;
+    right: 10px;
+    margin-top: -500px;
+
+}
+
+.originally {
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.leftwalk1 {
+    position: absolute;
+    z-index: -1;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+.leftwalk3 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -250px;
+    margin-left: -100px;
+}
+
+.walktime {
+    position: absolute;
+    z-index: -1;
+    right: 10px;
+    margin-top: 50px;
+}
+
+.walkacross {
+    position: absolute;
+    z-index: -1;
+    margin-top: -800px;
+}
+
+.rightwalk2 {
+    position: absolute;
+    z-index: -1;
+    right: 10px;
+    margin-top: -300px;
+
+}
+
+.walksmall {
+    position: absolute;
+    z-index: -1;
+    right: 10px;
+    margin-top: -300px;
+
+}
+
 
 /*---------------------------NAV---------------------*/
 
@@ -628,4 +709,11 @@ h1, h2, h3, h4, h5, h6 {
     overflow:visible;
 }
 
+}
+
+/*---------------foooter--------------*/
+
+.footer {
+    max-width: 100%;
+    margin-bottom: 10px;
 }
