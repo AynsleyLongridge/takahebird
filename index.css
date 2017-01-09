@@ -15,7 +15,7 @@ h1 { font-family: 'Trade Winds', cursive;
     margin-left: 50px;
     margin-right: 20px;
     font-size: 4em;
-    color: #301E4F;
+    color: whitesmoke;
 
 
 }
@@ -101,7 +101,7 @@ footer {
     padding:50px;
 }
 
-TRAIAL {#E4C8B0}
+
 
 body {
     background-color:whitesmoke;
@@ -121,6 +121,7 @@ body {
 
 
 .h1first {font-family: 'Trade Winds', cursive;
+    color: whitesmoke;
     font-size: 3em;
     padding-top: 20px;
     margin-bottom: -10px;
@@ -128,6 +129,7 @@ body {
 }
 
 .h1firstt {font-family: 'Trade Winds', cursive;
+    color: whitesmoke;
     font-size: 3em;
     margin-top: -10px;
     margin-bottom: -10px;
@@ -292,7 +294,7 @@ body {
 }
 
 .splash {
-    background-image: url(pictures/unsplash.jpg);
+    background-image: url(pictures/backtry.jpg);
     max-height: 100%;
     max-width: 100%;
     
@@ -361,6 +363,18 @@ body {
 
 }
 
+.change {
+    color: whitesmoke;
+    margin-bottom: 100px;
+    
+}
+
+.change2 {
+    color: whitesmoke;
+    margin-top: -200px;
+    margin-bottom:px;
+    
+}
 
 /*---------------------------NAV---------------------*/
 
@@ -391,8 +405,14 @@ li a:hover {
 }
 
 a {
-    color: #301E4F;
+    color: whitesmoke;
     text-decoration: none;
+}
+
+.topbreak {
+    position:absolute;
+    z-index: 3;
+    top: 490px;
 }
 
 /*----------parallax-----------*/

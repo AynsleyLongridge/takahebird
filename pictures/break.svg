@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1281px" height="170px" viewBox="0 0 1281 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-154.000000, -525.000000)" fill="#F5F5F5">
+            <g id="Group" transform="translate(154.000000, 525.000000)">
+                <polygon id="Path-51" points="1078 145 1281 145 1281 11 1226 61 1199 55 1186 53 1170 62 1158 69 1147 80 1140 84"></polygon>
+                <path d="M1102,110 C1047.03135,110 1007,90 928,90 C849,90 724,110 724,110 L1102,110 Z" id="Path-52"></path>
+                <polygon id="Path-53" points="0 157 4.86777285e-13 20 11 20 26 11 46 0 75 20 95 41 139 53 184 95 237 122"></polygon>
+                <path d="M202,117 C202,117 281,65 400,87 C432.048755,92.9249798 460.515617,103.776715 486,108 C494.65698,109.434639 523.041415,95.341792 540,97 C556.958585,98.658208 561.587373,93.3281658 571,97 C575.501414,98.7559864 598,97 598,97 L632,117 L384,170 L202,117 Z" id="Path-54"></path>
+            </g>
+        </g>
+    </g>
+</svg>
