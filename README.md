@@ -3,5 +3,5 @@
 
 - [Website](https://AynsleyLongridge.github.io/takahebird/index.html)
  
- -[Supporting Material](http://aynsleylongridge.tumblr.com/tagged/takahe)
- -[Moodboard](https://uk.pinterest.com/aynsley125/takahe-bird-project/)
+ - [Supporting Material](http://aynsleylongridge.tumblr.com/tagged/takahe)
+ - [Moodboard](https://uk.pinterest.com/aynsley125/takahe-bird-project/)
